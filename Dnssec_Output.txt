@@ -1,0 +1,25 @@
+python DNSSec.py verisign.com
+
+QUESTION SECTION:
+verisign.com. IN A
+
+
+ANSWER SECTION:
+verisign.com. 60 IN A 69.58.187.40
+verisign.com. 60 IN A 209.131.162.45
+Query Time: 0.26990342140197754 sec
+Thu Sep 23 18:20:09 2021
+MSG SIZE rcvd: 48
+
+*****************************************************************************************************************
+python DNSSec.py google.com
+
+DNS not supported
+
+*****************************************************************************************************************
+python DNSSec.py www.dnssec-failed.org
+
+DNS Verification Failed
+
+*****************************************************************************************************************
+

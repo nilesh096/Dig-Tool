@@ -1,0 +1,57 @@
+python mydig.py google.com A
+
+QUESTION SECTION:
+google.com. IN A
+
+ANSWER SECTION:
+google.com. 300 IN A 142.250.81.238
+
+Query Time: 0.09790515899658203 sec
+Thu Sep 23 18:12:01 2021
+MSG SIZE rcvd: 48
+
+**************************************************************************************************************
+python mydig.py google.com NS
+
+QUESTION SECTION:
+google.com. IN NS
+
+ANSWER SECTION:
+google.com. 345600 IN NS ns2.google.com.
+google.com. 345600 IN NS ns3.google.com.
+google.com. 345600 IN NS ns1.google.com.
+google.com. 345600 IN NS ns4.google.com.
+
+Query Time: 0.07342004776000977 sec
+Thu Sep 23 18:13:43 2021
+MSG SIZE rcvd: 48
+
+***************************************************************************************************************
+python mydig.py google.com MX
+
+QUESTION SECTION:
+google.com. IN MX
+
+ANSWER SECTION:
+google.com. 600 IN MX 20 alt1.aspmx.l.google.com.
+google.com. 600 IN MX 10 aspmx.l.google.com.
+google.com. 600 IN MX 30 alt2.aspmx.l.google.com.
+google.com. 600 IN MX 40 alt3.aspmx.l.google.com.
+google.com. 600 IN MX 50 alt4.aspmx.l.google.com.
+
+Query Time: 0.14147257804870605 sec
+Thu Sep 23 18:14:33 2021
+MSG SIZE rcvd: 48
+
+****************************************************************************************************************
+python mydig.py google.co.jp A
+
+QUESTION SECTION:
+google.co.jp. IN A
+
+ANSWER SECTION:
+google.co.jp. 300 IN A 142.250.176.195
+
+Query Time: 1.494420051574707 sec
+Thu Sep 23 18:15:54 2021
+MSG SIZE rcvd: 48
